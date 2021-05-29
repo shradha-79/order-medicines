@@ -22,7 +22,7 @@ html{
 }
 #navbar::before{
     content: "";
-    background-color: brown;
+    background-color: black;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -96,7 +96,7 @@ html{
  #home::before
      {
         content: "";
-        background: url('../medipic.webp') no-repeat center center/cover;
+        background: url('../img/pic.jpeg') no-repeat center center/cover;
         position: absolute;
         top: 0px;
         left: 0px;
@@ -104,7 +104,7 @@ html{
         height: 500px;
         width: 100%;
         z-index: -1;
-        opacity: .40;
+        opacity: .90;
     }
 
 #home h1{

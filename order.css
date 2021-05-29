@@ -1,7 +1,7 @@
 *{ padding:0; margin:0; box-sizing: border-box; font-family: sans-serif; }
 header{
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 }
 
 html{
@@ -13,7 +13,7 @@ nav{
 	border-bottom: 1px solid grey;
 	box-shadow: 2px 0px 5px grey;
 	display: flex;
-	justify-content: space-around;
+	/* justify-content: space-around; */
 	align-items: center;
 	position: fixed;
 	top:0;
@@ -21,7 +21,7 @@ nav{
 	background: white;
 }
 .logo{
-	font-size: 50px;
+	font-size: 30px;
 	font-weight: bold;
 }
 
@@ -32,6 +32,9 @@ nav{
 	padding: 10px 20px;
 	margin:5px;
 	font-weight: bold;
+	display: inline-block;
+	position: relative;
+	margin-left: 120px;
 }
 .menu a:last-child{
 	background: black;
@@ -73,8 +76,10 @@ nav{
 	margin-left: 100px;
 }
 
-.right h1{
-	font-size: 50px;
+.right h2{
+	font-size: 30px;
+	margin-top: 76px;
+	/* font-weight: 100; */
 }
 .right p{
 	font-size: 25px;
@@ -90,12 +95,6 @@ button{
 	margin-bottom: 20px;
 }
 
-#special-kits{
-	padding: 50px 0px;
-	font-size: 30px;
-	text-align: center;
-
-}
 
 
 .wrapper{
@@ -136,41 +135,38 @@ button{
 	transition: 0.4s linear;
 }
 
-#medicine{
+#covid{
 	padding: 80px 0px;
 }
-#medicine h1{
-	font-size: 30px;
-}
 
-.man-row{
+.covid-row{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
-.man-box{
+.covid-box{
 	flex-basis: 15%;
 	box-shadow: 2px 3px 5px grey;
 	padding: 10px;
 	text-align: center;
 }
 
-.man-box img{
+.covid-box img{
 	width: 100%;
 }
-.man-box h2{
+.covid-box h2{
 	margin:20px 0px;
 }
-.man-box h3{
+.covid-box h3{
 	background: black;
 	color: white;
 	padding: 10px;
 }
-.man-box:hover{
+.covid-box:hover{
 	transform: translateY(-20px);
 	transition: 0.4s ease;
 }
-#women{
+#others{
 	padding: 100px 0px;
 }
 #footer{
@@ -181,3 +177,6 @@ button{
 	color: white;
 	padding: 10px;
 }
+
+
+

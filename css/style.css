@@ -188,12 +188,18 @@ footer{
 {
     padding: 6px 20px;
     border: 2px solid white;
-    background-color: brown;
+    background-color: rgb(226, 196, 196);
     color: white;
     margin: 14px;
     font-size: 1.5rem;
     border-radius: 10px;
+    /* text-decoration-line: none; */
     cursor: pointer;
+}
+.btn:hover{
+    background-color: green;
+    color: white;
+    /* text-decoration: bold ; */
 }
 .centre{
     text-align: center;

@@ -47,10 +47,21 @@ html{
 #navbar ul{
     display: flex;
     position: relative;
-    margin-left: 60%;
+    margin-left: 57%;
     
 }
 
+#navbar h3{
+    display: flex;
+    position: absolute;
+    background-color: cadetblue;
+    border: black 2px solid;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 659px;
+    margin-bottom: 15px;
+    padding: 5px 6px;
+}
 #navbar ul li{
     /* color: aliceblue; */
     list-style: none;

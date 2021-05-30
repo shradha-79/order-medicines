@@ -1,5 +1,6 @@
 body{
-    background-image: url(img/design.jpg);
+    background-image: url('https://static2.bigstockphoto.com/9/1/9/large1500/91906631.jpg');
+    /* background-repeat: no-repeat; */
 }
 
 .container{
@@ -14,7 +15,11 @@ body{
     border-radius: 24px;
 
 }
-
+.container h2{
+  color: white;
+    font-family: cursive;
+    font-size: 37px;
+}
 .testing{
     text-decoration: none;
     text-align: center;
@@ -24,7 +29,7 @@ body{
 
 }
 footer {
-	padding:20px;
+  	padding-bottom:0px;
    background:#ff5010 !important;
    color:white
 }

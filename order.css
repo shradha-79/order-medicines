@@ -20,18 +20,25 @@ nav{
 	z-index: 1;
 	background: white;
 }
-.logo{
-	font-size: 50px;
-	font-weight: bold;
+.logo {
+    padding-right: 50%;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .menu a{
+	height: 50px;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 25px;
 	color: black;
 	padding: 10px 20px;
 	margin:5px;
 	font-weight: bold;
+}
+.menu a:hover{
+	border: 1px solid black;
+	background-color: rgb(211, 190, 231);
+	border-radius: 25px;
 }
 /* .menu a:last-child{
 	background: black;

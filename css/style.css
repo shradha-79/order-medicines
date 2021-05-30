@@ -47,7 +47,7 @@ html{
 #navbar ul{
     display: flex;
     position: relative;
-    margin-left: 70%;
+    margin-left: 65%;
     
 }
 
@@ -60,9 +60,9 @@ html{
     /* border: black 2px solid; */
     align-items: center;
     justify-content: center;
-    margin: 5px 720px;
+    margin: 5px 546px;
     margin-bottom: 15px;
-    padding: 5px 3px;
+    padding: 3px 3px;
     width: 400px;
 }
 #navbar ul li{
@@ -72,7 +72,7 @@ html{
     font-family: 'Pattaya', sans-serif;
 }
 #navbar ul li a{
-    font-size: 30px;
+    font-size: 25px;
     color:black;
     display: block;
     padding: 3px 22px;

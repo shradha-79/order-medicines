@@ -33,10 +33,10 @@ nav{
 	margin:5px;
 	font-weight: bold;
 }
-.menu a:last-child{
+/* .menu a:last-child{
 	background: black;
 	color: white;
-}
+} */
 .container{
 	margin-top: 80px;
 	display: flex;
@@ -91,13 +91,18 @@ button{
 	margin-bottom: 20px;
 }
 
-#Kits{
+#special-kits{
+	margin-top: 50px;
 	padding: 50px 5px;
 	font-size: 30px;
 	text-align: center;
-
+	
 }
 
+#special-kits a{
+	text-decoration: none;
+	color: white;
+}
 
 .wrapper{
 	display: grid;
@@ -151,6 +156,10 @@ button{
 	box-shadow: 2px 3px 5px grey;
 	padding: 10px;
 	text-align: center;
+}
+.man-row a{
+	text-decoration: none;
+
 }
 
 .man-box img{

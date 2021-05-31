@@ -28,6 +28,7 @@ footer {
   	padding-bottom:0px;
    background:#ff5010 !important;
    color:white
+
 }
 
 
@@ -44,6 +45,11 @@ footer h4 {
 	text-shadow:none;
 	font-weight:550;
 	color:#fff;
+}
+
+.fa .fa-github{
+  text-decoration: none;
+  color: black;
 }
 
 .mobile{
